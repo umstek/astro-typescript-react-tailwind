@@ -4,6 +4,7 @@
         "readme",
         "ui",
         "config",
-        "extensions"
+        "extensions",
+        "rss"
     ]
 }
