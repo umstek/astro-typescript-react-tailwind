@@ -1,0 +1,25 @@
+@import '@fontsource/jetbrains-mono/variable';
+@import '@fontsource/lexend/variable';
+@import 'shiki.css';
+
+/* The integration's default injected base.css file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass {
+  backdrop-filter: blur(1em) saturate(200%);
+  /* background-color: rgba(255, 255, 255, 0.8); */
+}
+
+@media (prefers-color-scheme: light) {
+  .shiki.github-dark {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .shiki.github-light {
+    display: none;
+  }
+}

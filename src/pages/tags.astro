@@ -1,0 +1,48 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Tag from '../components/Tag';
+
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+
+const posts = await Astro.glob('./blog/*.{md,mdx}');
+
+const groupedPosts: { [tag: string]: Record<string, any>[] } = posts
+  .flatMap((post) => (post.frontmatter.tags || []).map((tag: string) => [tag, post]))
+  .reduce((groups, [tag, post]) => ({ ...groups, [tag]: [...(groups[tag] || []), post] }), {});
+
+const tags = Object.entries(groupedPosts).map(([tag, taggedPosts]) => ({
+  name: tag,
+  count: taggedPosts.length,
+}));
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body class="dark:bg-slate-900">
+    <Header />
+    <main
+      class="mt-12 prose prose-sm sm:prose-base md:prose-lg lg:prose-xl xl:prose-2xl dark:prose-invert prose-slate mx-auto p-4"
+    >
+      <div class="p-4">
+        <h1>Tags</h1>
+        <section>
+          <div class="flex flex-row flex-wrap justify-between">
+            {
+              tags?.map((tag) => (
+                <Tag className="mr-4" href={`/tags/${tag.name}`} count={tag.count}>
+                  {tag.name}
+                </Tag>
+              ))
+            }
+          </div>
+        </section>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

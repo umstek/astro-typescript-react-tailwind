@@ -1,0 +1,52 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import PostsList from '../../components/PostsList';
+
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../config';
+
+export async function getStaticPaths() {
+  const posts = await Astro.glob('../blog/*.{md,mdx}');
+
+  const groupedPosts: { [tag: string]: Record<string, any>[] } = posts
+    .flatMap((post) => (post.frontmatter.tags || []).map((tag: string) => [tag, post]))
+    .reduce((groups, [tag, post]) => ({ ...groups, [tag]: [...(groups[tag] || []), post] }), {});
+
+  return Object.entries(groupedPosts).map(([tag, posts]) => ({
+    params: { tag },
+    props: {
+      posts: posts.sort(
+        (a, b) =>
+          new Date(b.frontmatter.publishedAt).valueOf() -
+          new Date(a.frontmatter.publishedAt).valueOf(),
+      ),
+    },
+  }));
+}
+
+const {
+  params: { tag },
+  props: { posts },
+} = Astro;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body class="dark:bg-slate-900">
+    <Header />
+    <main
+      class="mt-12 prose prose-sm sm:prose-base md:prose-lg lg:prose-xl xl:prose-2xl dark:prose-invert prose-slate mx-auto p-4"
+    >
+      <div class="p-4">
+        <h1>🏷️ {tag}</h1>
+        go back to <a href="/tags/">tags</a>
+        <PostsList posts={posts} />
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
