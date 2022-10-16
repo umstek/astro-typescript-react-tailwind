@@ -5,6 +5,7 @@
         "ui",
         "config",
         "extensions",
-        "rss"
+        "rss",
+        "routes"
     ]
 }

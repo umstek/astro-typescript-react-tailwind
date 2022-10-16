@@ -6,7 +6,7 @@ import Tag from '../components/Tag';
 
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 
-const posts = await Astro.glob('./blog/*.{md,mdx}');
+const posts = await Astro.glob('./blog/**/*.{md,mdx}');
 
 const groupedPosts: { [tag: string]: Record<string, any>[] } = posts
   .flatMap((post) => (post.frontmatter.tags || []).map((tag: string) => [tag, post]))
