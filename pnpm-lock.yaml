@@ -9,7 +9,7 @@ specifiers:
   '@fontsource/jetbrains-mono': 4.5.11
   '@fontsource/lexend': 4.5.13
   '@tailwindcss/typography': 0.5.7
-  '@types/react': 18.0.21
+  '@types/react': 18.0.24
   '@types/react-dom': 18.0.6
   '@typescript/twoslash': 3.2.1
   astro: 1.5.0
@@ -41,7 +41,7 @@ dependencies:
   tailwindcss: 3.1.8
 
 devDependencies:
-  '@types/react': 18.0.21
+  '@types/react': 18.0.24
   '@types/react-dom': 18.0.6
   '@typescript/twoslash': 3.2.1
   remark-shiki-twoslash: 3.1.0
@@ -760,11 +760,11 @@ packages:
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
-      '@types/react': 18.0.21
+      '@types/react': 18.0.24
     dev: true
 
-  /@types/react/18.0.21:
-    resolution: {integrity: sha512-7QUCOxvFgnD5Jk8ZKlUAhVcRj7GuJRjnjjiY/IUBWKgOlnvDvTMLD4RTF7NPyVmbRhNrbomZiOepg7M/2Kj1mA==}
+  /@types/react/18.0.24:
+    resolution: {integrity: sha512-wRJWT6ouziGUy+9uX0aW4YOJxAY0bG6/AOk5AW5QSvZqI7dk6VBIbXvcVgIw/W5Jrl24f77df98GEKTJGOLx7Q==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
