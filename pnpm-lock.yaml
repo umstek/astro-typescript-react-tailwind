@@ -9,7 +9,7 @@ specifiers:
   '@fontsource/jetbrains-mono': 4.5.11
   '@fontsource/lexend': 4.5.13
   '@tailwindcss/typography': 0.5.7
-  '@types/react': 18.0.24
+  '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
   '@typescript/twoslash': 3.2.1
   astro: 1.6.3
@@ -24,7 +24,7 @@ specifiers:
 
 dependencies:
   '@astrojs/mdx': 0.11.5_rollup@3.2.5
-  '@astrojs/react': 1.2.2_nsgh7lqw2e2kb5wanadocemtdi
+  '@astrojs/react': 1.2.2_gqczyrwmhlwpr6z64d3xh3wv54
   '@astrojs/rss': 1.0.3
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.1.2_tailwindcss@3.2.1
@@ -41,7 +41,7 @@ dependencies:
   tailwindcss: 3.2.1
 
 devDependencies:
-  '@types/react': 18.0.24
+  '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
   '@typescript/twoslash': 3.2.1
   remark-shiki-twoslash: 3.1.0
@@ -159,7 +159,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/1.2.2_nsgh7lqw2e2kb5wanadocemtdi:
+  /@astrojs/react/1.2.2_gqczyrwmhlwpr6z64d3xh3wv54:
     resolution: {integrity: sha512-ab9fYvzkC74J7N+M3DWQuZgwu7sYjW0aLO3sEAdCX/jZZz+0BhrqS8m9QjtGJyQK/niF4tgJjpPfadopxKc56g==}
     engines: {node: ^14.18.0 || >=16.12.0}
     peerDependencies:
@@ -170,7 +170,7 @@ packages:
     dependencies:
       '@babel/core': 7.19.3
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.19.3
-      '@types/react': 18.0.24
+      '@types/react': 18.0.25
       '@types/react-dom': 18.0.8
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -763,10 +763,10 @@ packages:
   /@types/react-dom/18.0.8:
     resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
     dependencies:
-      '@types/react': 18.0.24
+      '@types/react': 18.0.25
 
-  /@types/react/18.0.24:
-    resolution: {integrity: sha512-wRJWT6ouziGUy+9uX0aW4YOJxAY0bG6/AOk5AW5QSvZqI7dk6VBIbXvcVgIw/W5Jrl24f77df98GEKTJGOLx7Q==}
+  /@types/react/18.0.25:
+    resolution: {integrity: sha512-xD6c0KDT4m7n9uD4ZHi02lzskaiqcBxf4zi+tXZY98a04wvc0hi/TcCPC2FOESZi51Nd7tlUeOJY8RofL799/g==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
