@@ -12,7 +12,7 @@ specifiers:
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
   '@typescript/twoslash': 3.2.1
-  astro: 1.6.4
+  astro: 1.6.5
   mdast-util-to-string: 3.1.0
   react: 18.2.0
   react-dom: 18.2.0
@@ -31,7 +31,7 @@ dependencies:
   '@fontsource/jetbrains-mono': 4.5.11
   '@fontsource/lexend': 4.5.13
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.2
-  astro: 1.6.4
+  astro: 1.6.5
   mdast-util-to-string: 3.1.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -949,8 +949,8 @@ packages:
     hasBin: true
     dev: false
 
-  /astro/1.6.4:
-    resolution: {integrity: sha512-4Yi6fonZK/t8I1BdZ2YaTtSKUSeB8RoikDDssqkiO6j2BAfK4HOhRk70PrrkKyY5gK6VCe/Nao8ABq3GZfxm9g==}
+  /astro/1.6.5:
+    resolution: {integrity: sha512-PBjtMJeCRTkvG2ExMpfDUEc7FbwpJ/pxixe7Kt1Z9dfggofGLXnNa5JxzvacuotI1u35wb9nwQ7aI4Uyk5Ellg==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
