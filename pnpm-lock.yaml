@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': 0.11.5
+  '@astrojs/mdx': 0.11.6
   '@astrojs/react': 1.2.2
   '@astrojs/rss': 1.0.3
   '@astrojs/sitemap': 1.0.0
@@ -23,7 +23,7 @@ specifiers:
   tailwindcss: 3.2.3
 
 dependencies:
-  '@astrojs/mdx': 0.11.5_rollup@3.2.5
+  '@astrojs/mdx': 0.11.6_rollup@3.2.5
   '@astrojs/react': 1.2.2_gqczyrwmhlwpr6z64d3xh3wv54
   '@astrojs/rss': 1.0.3
   '@astrojs/sitemap': 1.0.0
@@ -86,7 +86,7 @@ packages:
     resolution: {integrity: sha512-6MDuQXbrp2fZBYBIqD+0jvSqYAukiMTte6oLNHiEYsLf3KIMlVAZj6dDgUJakgL7cQ4fmzWb0HUqzVpxAsasLw==}
     dependencies:
       '@astrojs/micromark-extension-mdx-jsx': 1.0.3
-      '@astrojs/prism': 1.0.1
+      '@astrojs/prism': 1.0.2
       acorn: 8.8.0
       acorn-jsx: 5.3.2_acorn@8.8.0
       github-slugger: 1.4.0
@@ -113,11 +113,11 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx/0.11.5_rollup@3.2.5:
-    resolution: {integrity: sha512-zSlMX5unK4aIfg6NeYzlw0erLtvKpk71FWo11jYsMmmajYSU2JUk6maKWewERXGuVoY2YpC4W4Fl5dPn6jYGdQ==}
+  /@astrojs/mdx/0.11.6_rollup@3.2.5:
+    resolution: {integrity: sha512-MEi8CZuz4vXn74/jCb0CMOAKEqd6nsLrShYfE+ddb1//14CwuaVGbXN7V6/zGj8ZvBhFk/darBbNpJBmzfbI6A==}
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
-      '@astrojs/prism': 1.0.1
+      '@astrojs/prism': 1.0.2
       '@mdx-js/mdx': 2.1.5
       '@mdx-js/rollup': 2.1.5_rollup@3.2.5
       acorn: 8.8.0
@@ -152,8 +152,8 @@ packages:
       vfile-message: 3.1.2
     dev: false
 
-  /@astrojs/prism/1.0.1:
-    resolution: {integrity: sha512-HxEFslvbv+cfOs51q/C7aMVFuW3EAGg0d1xXU/0e/QeScDzfrp5Ra4SOb8mV082SgENVjtVvet4zR84t3at4VQ==}
+  /@astrojs/prism/1.0.2:
+    resolution: {integrity: sha512-o3cUVoAuALDqdN5puNlsN2eO4Yi1kDh68YO8V7o6U4Ts+J/mMayzlJ7JsgYAmob0xrf/XnADVgu8khfMv/w3uA==}
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
       prismjs: 1.29.0
