@@ -20,17 +20,17 @@ specifiers:
   remark-shiki-twoslash: 3.1.0
   rollup: 3.2.5
   shiki: 0.11.1
-  tailwindcss: 3.2.3
+  tailwindcss: 3.2.4
 
 dependencies:
   '@astrojs/mdx': 0.11.6_rollup@3.2.5
   '@astrojs/react': 1.2.2_gqczyrwmhlwpr6z64d3xh3wv54
   '@astrojs/rss': 1.0.3
   '@astrojs/sitemap': 1.0.0
-  '@astrojs/tailwind': 2.1.2_tailwindcss@3.2.3
+  '@astrojs/tailwind': 2.1.2_tailwindcss@3.2.4
   '@fontsource/jetbrains-mono': 4.5.11
   '@fontsource/lexend': 4.5.13
-  '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.3
+  '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
   astro: 1.6.7
   mdast-util-to-string: 3.1.0
   react: 18.2.0
@@ -38,7 +38,7 @@ dependencies:
   reading-time: 1.5.0
   rollup: 3.2.5
   shiki: 0.11.1
-  tailwindcss: 3.2.3
+  tailwindcss: 3.2.4
 
 devDependencies:
   '@types/react': 18.0.25
@@ -187,7 +187,7 @@ packages:
       zod: 3.19.1
     dev: false
 
-  /@astrojs/tailwind/2.1.2_tailwindcss@3.2.3:
+  /@astrojs/tailwind/2.1.2_tailwindcss@3.2.4:
     resolution: {integrity: sha512-nIrlT+WWp/Wv2VQ29Nvncq608E+j3qB9k1f7yiAjY2ijxizZo4OnQzdRPQcIjIZHL5YxPtzbcoSP2u3v+Domqw==}
     peerDependencies:
       tailwindcss: ^3.0.24
@@ -195,7 +195,7 @@ packages:
       '@proload/core': 0.3.3
       autoprefixer: 10.4.12_postcss@8.4.18
       postcss: 8.4.18
-      tailwindcss: 3.2.3
+      tailwindcss: 3.2.4
     dev: false
 
   /@astrojs/telemetry/1.0.1:
@@ -642,7 +642,7 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /@tailwindcss/typography/0.5.8_tailwindcss@3.2.3:
+  /@tailwindcss/typography/0.5.8_tailwindcss@3.2.4:
     resolution: {integrity: sha512-xGQEp8KXN8Sd8m6R4xYmwxghmswrd0cPnNI2Lc6fmrC3OojysTBJJGSIVwPV56q4t6THFUK3HJ0EaWwpglSxWw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -651,7 +651,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.2.3
+      tailwindcss: 3.2.4
     dev: false
 
   /@types/acorn/4.0.6:
@@ -3970,8 +3970,8 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /tailwindcss/3.2.3:
-    resolution: {integrity: sha512-Xt9D4PK4zuuQCEB8bwK9JUCKmTgUwyac/6b0/42Vqhgl6YJkep+Wf5wq+5uXYfmrupdAD0YY2NY1hyZp1HjRrg==}
+  /tailwindcss/3.2.4:
+    resolution: {integrity: sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
