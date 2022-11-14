@@ -10,7 +10,7 @@ specifiers:
   '@fontsource/lexend': 4.5.13
   '@tailwindcss/typography': 0.5.8
   '@types/react': 18.0.25
-  '@types/react-dom': 18.0.8
+  '@types/react-dom': 18.0.9
   '@typescript/twoslash': 3.2.1
   astro: 1.6.7
   mdast-util-to-string: 3.1.0
@@ -24,7 +24,7 @@ specifiers:
 
 dependencies:
   '@astrojs/mdx': 0.11.6_rollup@3.3.0
-  '@astrojs/react': 1.2.2_gqczyrwmhlwpr6z64d3xh3wv54
+  '@astrojs/react': 1.2.2_cn3ejhfta5lq2dae4xucvtkwvu
   '@astrojs/rss': 1.0.3
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.1.2_tailwindcss@3.2.4
@@ -42,7 +42,7 @@ dependencies:
 
 devDependencies:
   '@types/react': 18.0.25
-  '@types/react-dom': 18.0.8
+  '@types/react-dom': 18.0.9
   '@typescript/twoslash': 3.2.1
   remark-shiki-twoslash: 3.1.0
 
@@ -155,7 +155,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/1.2.2_gqczyrwmhlwpr6z64d3xh3wv54:
+  /@astrojs/react/1.2.2_cn3ejhfta5lq2dae4xucvtkwvu:
     resolution: {integrity: sha512-ab9fYvzkC74J7N+M3DWQuZgwu7sYjW0aLO3sEAdCX/jZZz+0BhrqS8m9QjtGJyQK/niF4tgJjpPfadopxKc56g==}
     engines: {node: ^14.18.0 || >=16.12.0}
     peerDependencies:
@@ -167,7 +167,7 @@ packages:
       '@babel/core': 7.19.3
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.19.3
       '@types/react': 18.0.25
-      '@types/react-dom': 18.0.8
+      '@types/react-dom': 18.0.9
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     transitivePeerDependencies:
@@ -756,8 +756,8 @@ packages:
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  /@types/react-dom/18.0.8:
-    resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
+  /@types/react-dom/18.0.9:
+    resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
     dependencies:
       '@types/react': 18.0.25
 
