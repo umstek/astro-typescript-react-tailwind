@@ -12,7 +12,7 @@ specifiers:
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
   '@typescript/twoslash': 3.2.1
-  astro: 1.6.8
+  astro: 1.6.9
   mdast-util-to-string: 3.1.0
   react: 18.2.0
   react-dom: 18.2.0
@@ -31,7 +31,7 @@ dependencies:
   '@fontsource/jetbrains-mono': 4.5.11
   '@fontsource/lexend': 4.5.13
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
-  astro: 1.6.8
+  astro: 1.6.9
   mdast-util-to-string: 3.1.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -945,8 +945,8 @@ packages:
     hasBin: true
     dev: false
 
-  /astro/1.6.8:
-    resolution: {integrity: sha512-+kOj8s2fguCFCim9he6fl9iugIHrmAl7BmfNXdTdC9zU30VYV162HF5eRJyMlY5hGuDn3GvAoaNSzCMnybVsFQ==}
+  /astro/1.6.9:
+    resolution: {integrity: sha512-KXFKXobe8MIYl4gduUPLcAazMz+thox6N1pOv3F3QMbJS5rMRXkWloVK/6XebBO7p3DYkOfOGB4qA9ijTc4ftA==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -1007,11 +1007,12 @@ packages:
       typescript: 4.8.4
       unist-util-visit: 4.1.1
       vfile: 5.3.5
-      vite: 3.2.1
-      vitefu: 0.2.1_vite@3.2.1
+      vite: 3.2.4
+      vitefu: 0.2.1_vite@3.2.4
       yargs-parser: 21.1.1
       zod: 3.19.1
     transitivePeerDependencies:
+      - '@types/node'
       - less
       - sass
       - stylus
@@ -4230,17 +4231,20 @@ packages:
       vfile-message: 3.1.2
     dev: false
 
-  /vite/3.2.1:
-    resolution: {integrity: sha512-ADtMkfHuWq4tskJsri2n2FZkORO8ZyhI+zIz7zTrDAgDEtct1jdxOg3YsZBfHhKjmMoWLOSCr+64qrEDGo/DbQ==}
+  /vite/3.2.4:
+    resolution: {integrity: sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
+      '@types/node': '>= 14'
       less: '*'
       sass: '*'
       stylus: '*'
       sugarss: '*'
       terser: ^5.4.0
     peerDependenciesMeta:
+      '@types/node':
+        optional: true
       less:
         optional: true
       sass:
@@ -4260,7 +4264,7 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /vitefu/0.2.1_vite@3.2.1:
+  /vitefu/0.2.1_vite@3.2.4:
     resolution: {integrity: sha512-clkvXTAeUf+XQKm3bhWUhT4pye+3acm6YCTGaWhxxIvZZ/QjnA3JA8Zud+z/mO5y5XYvJJhevs5Sjkv/FI8nRw==}
     peerDependencies:
       vite: ^3.0.0
@@ -4268,7 +4272,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 3.2.1
+      vite: 3.2.4
     dev: false
 
   /vscode-css-languageservice/6.1.1:
