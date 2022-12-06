@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': 0.12.0
+  '@astrojs/mdx': 0.12.1
   '@astrojs/react': 1.2.2
   '@astrojs/rss': 1.0.3
   '@astrojs/sitemap': 1.0.0
@@ -23,7 +23,7 @@ specifiers:
   tailwindcss: 3.2.4
 
 dependencies:
-  '@astrojs/mdx': 0.12.0_rollup@3.6.0
+  '@astrojs/mdx': 0.12.1_rollup@3.6.0
   '@astrojs/react': 1.2.2_yqqa5ithnjtlkxisuaub7c4kpa
   '@astrojs/rss': 1.0.3
   '@astrojs/sitemap': 1.0.0
@@ -109,8 +109,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx/0.12.0_rollup@3.6.0:
-    resolution: {integrity: sha512-KeX5YYla4KpiiDBVmbaYGqqt9QLVUj/Q2d3u+VRK3WnGI+lN9bVsJLid4wApU/kTA6iWlquIrbX2XmhUUF6viQ==}
+  /@astrojs/mdx/0.12.1_rollup@3.6.0:
+    resolution: {integrity: sha512-d41ariAR7VMHb+4ALiXPbYXMPSqjpGqTAZBSp40sRam084r/4Vwr6F1mwRKWFDwbwgN6iLN+fczSQDvqoOD2JQ==}
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
       '@astrojs/prism': 1.0.2
