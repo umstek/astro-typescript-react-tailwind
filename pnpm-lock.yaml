@@ -19,7 +19,7 @@ specifiers:
   reading-time: 1.5.0
   remark-shiki-twoslash: 3.1.0
   rollup: 3.7.5
-  shiki: 0.11.1
+  shiki: 0.12.0
   tailwindcss: 3.2.4
 
 dependencies:
@@ -37,7 +37,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   reading-time: 1.5.0
   rollup: 3.7.5
-  shiki: 0.11.1
+  shiki: 0.12.0
   tailwindcss: 3.2.4
 
 devDependencies:
@@ -3794,7 +3794,7 @@ packages:
     resolution: {integrity: sha512-VsY7QJVzU51j5o1+DguUd+6vmCmZ5v/6gYu4vyYAhzjuNQU6P/vmSy4uQaOhvje031qQMiW0d2BwgMH52vqMng==}
     dependencies:
       jsonc-parser: 3.2.0
-      vscode-oniguruma: 1.6.2
+      vscode-oniguruma: 1.7.0
       vscode-textmate: 5.2.0
     dev: true
 
@@ -3802,8 +3802,16 @@ packages:
     resolution: {integrity: sha512-EugY9VASFuDqOexOgXR18ZV+TbFrQHeCpEYaXamO+SZlsnT/2LxuLBX25GGtIrwaEVFXUAbUQ601SWE2rMwWHA==}
     dependencies:
       jsonc-parser: 3.2.0
-      vscode-oniguruma: 1.6.2
+      vscode-oniguruma: 1.7.0
       vscode-textmate: 6.0.0
+    dev: false
+
+  /shiki/0.12.0:
+    resolution: {integrity: sha512-YDmjxrHnp8RUliAYM5b66OAKODAdOtlZtRbdp9BFtORB3eH0z1YIGZ+W5xz46JSi2emwrJqJ8lS9cvPxfgvCUw==}
+    dependencies:
+      jsonc-parser: 3.2.0
+      vscode-oniguruma: 1.7.0
+      vscode-textmate: 8.0.0
     dev: false
 
   /signal-exit/3.0.7:
@@ -4333,8 +4341,8 @@ packages:
     resolution: {integrity: sha512-RAaHx7B14ZU04EU31pT+rKz2/zSl7xMsfIZuo8pd+KZO6PXtQmpevpq3vxvWNcrGbdmhM/rr5Uw5Mz+NBfhVng==}
     dev: false
 
-  /vscode-oniguruma/1.6.2:
-    resolution: {integrity: sha512-KH8+KKov5eS/9WhofZR8M8dMHWN2gTxjMsG4jd04YhpbPR91fUj7rYQ2/XjeHCJWbg7X++ApRIU9NUwM2vTvLA==}
+  /vscode-oniguruma/1.7.0:
+    resolution: {integrity: sha512-L9WMGRfrjOhgHSdOYgCt/yRMsXzLDJSL7BPrOZt73gU0iWO4mpqzqQzOz5srxqTvMBaR0XZTSrVWo4j55Rc6cA==}
 
   /vscode-textmate/5.2.0:
     resolution: {integrity: sha512-Uw5ooOQxRASHgu6C7GVvUxisKXfSgW4oFlO+aa+PAkgmH89O3CXxEEzNRNtHSqtXFTl0nAC1uYj0GMSH27uwtQ==}
@@ -4342,6 +4350,10 @@ packages:
 
   /vscode-textmate/6.0.0:
     resolution: {integrity: sha512-gu73tuZfJgu+mvCSy4UZwd2JXykjK9zAZsfmDeut5dx/1a7FeTk0XwJsSuqQn+cuMCGVbIBfl+s53X4T19DnzQ==}
+    dev: false
+
+  /vscode-textmate/8.0.0:
+    resolution: {integrity: sha512-AFbieoL7a5LMqcnOF04ji+rpXadgOXnZsxQr//r83kLPr7biP7am3g9zbaZIaBGwBRWeSvoMD4mgPdX3e4NWBg==}
     dev: false
 
   /vscode-uri/2.1.2:
