@@ -18,12 +18,12 @@ specifiers:
   react-dom: 18.2.0
   reading-time: 1.5.0
   remark-shiki-twoslash: 3.1.0
-  rollup: 3.9.1
+  rollup: 3.10.0
   shiki: 0.12.1
   tailwindcss: 3.2.4
 
 dependencies:
-  '@astrojs/mdx': 0.14.0_rollup@3.9.1
+  '@astrojs/mdx': 0.14.0_rollup@3.10.0
   '@astrojs/react': 1.2.2_ie75ejlwqy5zh3tldgt7pftwcu
   '@astrojs/rss': 1.2.1
   '@astrojs/sitemap': 1.0.0
@@ -36,7 +36,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   reading-time: 1.5.0
-  rollup: 3.9.1
+  rollup: 3.10.0
   shiki: 0.12.1
   tailwindcss: 3.2.4
 
@@ -113,14 +113,14 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx/0.14.0_rollup@3.9.1:
+  /@astrojs/mdx/0.14.0_rollup@3.10.0:
     resolution: {integrity: sha512-lmNh/7CeQmdZ0OCbnDnoDxQTKWleFdlT5YkjsutGIOhabY0xgCcWwb1Rbs/9m4vvTdCkp9zsZdRzUKEPFPbcsA==}
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
       '@astrojs/markdown-remark': 1.2.0
       '@astrojs/prism': 1.0.2
       '@mdx-js/mdx': 2.1.5
-      '@mdx-js/rollup': 2.1.5_rollup@3.9.1
+      '@mdx-js/rollup': 2.1.5_rollup@3.10.0
       acorn: 8.8.0
       es-module-lexer: 0.10.5
       estree-util-visit: 1.2.0
@@ -572,14 +572,14 @@ packages:
       - supports-color
     dev: false
 
-  /@mdx-js/rollup/2.1.5_rollup@3.9.1:
+  /@mdx-js/rollup/2.1.5_rollup@3.10.0:
     resolution: {integrity: sha512-l90rSiwnEf6PnjH8uRXjZ1W0rR8p1fp1YIiDuA3uF7SOfxMQ98uymaIwI6BsX+8BC2dcWij7Racwp++JkvdOLQ==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
       '@mdx-js/mdx': 2.1.5
       '@rollup/pluginutils': 4.2.1
-      rollup: 3.9.1
+      rollup: 3.10.0
       source-map: 0.7.4
       vfile: 5.3.5
     transitivePeerDependencies:
@@ -3703,8 +3703,8 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /rollup/3.9.1:
-    resolution: {integrity: sha512-GswCYHXftN8ZKGVgQhTFUJB/NBXxrRGgO2NCy6E8s1rwEJ4Q9/VttNqcYfEvx4dTo4j58YqdC3OVztPzlKSX8w==}
+  /rollup/3.10.0:
+    resolution: {integrity: sha512-JmRYz44NjC1MjVF2VKxc0M1a97vn+cDxeqWmnwyAF4FvpjK8YFdHpaqvQB+3IxCvX05vJxKZkoMDU8TShhmJVA==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
