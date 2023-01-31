@@ -6,6 +6,7 @@
         "config",
         "extensions",
         "rss",
-        "routes"
+        "routes",
+        "deps"
     ]
 }
