@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': 0.17.0
+  '@astrojs/mdx': 0.17.2
   '@astrojs/react': 2.0.2
   '@astrojs/rss': 2.1.1
   '@astrojs/sitemap': 1.0.1
@@ -23,7 +23,7 @@ specifiers:
   tailwindcss: 3.2.7
 
 dependencies:
-  '@astrojs/mdx': 0.17.0_astro@2.0.14+rollup@3.17.2
+  '@astrojs/mdx': 0.17.2_astro@2.0.14+rollup@3.17.2
   '@astrojs/react': 2.0.2_3xleytyzprlgycb2ded54tx72i
   '@astrojs/rss': 2.1.1
   '@astrojs/sitemap': 1.0.1
@@ -105,8 +105,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx/0.17.0_astro@2.0.14+rollup@3.17.2:
-    resolution: {integrity: sha512-vy4m/mwzdfDK4jC9wraFLMVwx13eXBPC8r7nkO5s8YlcFX6IDcl2LKPurP3+/ibpTei9IPQLIZOufXRDO96SYg==}
+  /@astrojs/mdx/0.17.2_astro@2.0.14+rollup@3.17.2:
+    resolution: {integrity: sha512-mol57cw1jJMcQgKMRGn7p6cewajq6JTNtqj5aAZgROWam/phVDSOCbXj/WU3O9+3qFnyKtpczoufQKwJTQltAw==}
     engines: {node: '>=16.12.0'}
     dependencies:
       '@astrojs/markdown-remark': 2.0.1_astro@2.0.14
@@ -114,7 +114,7 @@ packages:
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/rollup': 2.3.0_rollup@3.17.2
       acorn: 8.8.2
-      es-module-lexer: 0.10.5
+      es-module-lexer: 1.2.0
       estree-util-visit: 1.2.1
       github-slugger: 1.5.0
       gray-matter: 4.0.3
@@ -1496,12 +1496,12 @@ packages:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
     dev: false
 
-  /es-module-lexer/0.10.5:
-    resolution: {integrity: sha512-+7IwY/kiGAacQfY+YBhKMvEmyAJnw5grTUgjG85Pe7vcUI/6b7pZjZG8nQ7+48YhzEAEqrEgD2dCz/JIK+AYvw==}
-    dev: false
-
   /es-module-lexer/1.1.0:
     resolution: {integrity: sha512-fJg+1tiyEeS8figV+fPcPpm8WqJEflG3yPU0NOm5xMvrNkuiy7HzX/Ljng4Y0hAoiw4/3hQTCFYw+ub8+a2pRA==}
+    dev: false
+
+  /es-module-lexer/1.2.0:
+    resolution: {integrity: sha512-2BMfqBDeVCcOlLaL1ZAfp+D868SczNpKArrTM3dhpd7dK/OVlogzY15qpUngt+LMTq5UC/csb9vVQAgupucSbA==}
     dev: false
 
   /esbuild/0.16.17:
