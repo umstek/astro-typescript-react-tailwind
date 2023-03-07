@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/mdx': 0.17.2
   '@astrojs/react': 2.1.0
-  '@astrojs/rss': 2.1.1
+  '@astrojs/rss': 2.2.0
   '@astrojs/sitemap': 1.1.0
   '@astrojs/tailwind': 3.0.1
   '@fontsource/jetbrains-mono': 4.5.12
@@ -25,7 +25,7 @@ specifiers:
 dependencies:
   '@astrojs/mdx': 0.17.2_astro@2.0.18+rollup@3.18.0
   '@astrojs/react': 2.1.0_3xleytyzprlgycb2ded54tx72i
-  '@astrojs/rss': 2.1.1
+  '@astrojs/rss': 2.2.0
   '@astrojs/sitemap': 1.1.0
   '@astrojs/tailwind': 3.0.1_ztwm5qe42rkouqcscc322ujlja
   '@fontsource/jetbrains-mono': 4.5.12
@@ -158,8 +158,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/rss/2.1.1:
-    resolution: {integrity: sha512-3BpCqyCmVWfrGqyc1YXUQf7O3QjORYNmvxzeKvp0E+7KGiKj8ckRzwj90xGYjbKcb/BwKfzYgek4+BrZ1aqQtA==}
+  /@astrojs/rss/2.2.0:
+    resolution: {integrity: sha512-U/OdXpUT4wWJ+fKEoyzUlniOR99P6TyIAsk6nYxLf472vcW8Md6XSdNb6B6kmdqytgiJ9khChYkm1hY+JgMGCw==}
     dependencies:
       fast-xml-parser: 4.0.15
       kleur: 4.1.5
