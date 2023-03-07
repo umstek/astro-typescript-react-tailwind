@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/mdx': 0.17.2
-  '@astrojs/react': 2.0.2
+  '@astrojs/react': 2.1.0
   '@astrojs/rss': 2.1.1
   '@astrojs/sitemap': 1.1.0
   '@astrojs/tailwind': 3.0.1
@@ -24,7 +24,7 @@ specifiers:
 
 dependencies:
   '@astrojs/mdx': 0.17.2_astro@2.0.18+rollup@3.18.0
-  '@astrojs/react': 2.0.2_3xleytyzprlgycb2ded54tx72i
+  '@astrojs/react': 2.1.0_3xleytyzprlgycb2ded54tx72i
   '@astrojs/rss': 2.1.1
   '@astrojs/sitemap': 1.1.0
   '@astrojs/tailwind': 3.0.1_ztwm5qe42rkouqcscc322ujlja
@@ -139,8 +139,8 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/2.0.2_3xleytyzprlgycb2ded54tx72i:
-    resolution: {integrity: sha512-UmQNvzJul5M/Q9aZJXnqz4z0ODZXkLuaNvgsYoKB7OdM8c2v85FsTjMZZJ7BvFo4On31jJ0rL/gwTaCeuYqmpw==}
+  /@astrojs/react/2.1.0_3xleytyzprlgycb2ded54tx72i:
+    resolution: {integrity: sha512-AzopsCVjsHlX1oVkgLusDRngnpJfoi03kj6c8p/K6+i/PQ3ZnVwRmJl7IgFBC2YJSbexyNxK2BmLvwkjGvQaCA==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
       '@types/react': ^17.0.50 || ^18.0.21
