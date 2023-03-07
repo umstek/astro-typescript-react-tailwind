@@ -14,7 +14,7 @@
     "@astrojs/mdx": "0.17.2",
     "@astrojs/react": "2.1.0",
     "@astrojs/rss": "2.2.0",
-    "@astrojs/sitemap": "1.1.0",
+    "@astrojs/sitemap": "1.2.0",
     "@astrojs/tailwind": "3.0.1",
     "@fontsource/jetbrains-mono": "4.5.12",
     "@fontsource/lexend": "4.5.15",
