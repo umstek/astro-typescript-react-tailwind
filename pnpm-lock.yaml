@@ -5,7 +5,7 @@ specifiers:
   '@astrojs/react': 2.1.0
   '@astrojs/rss': 2.2.0
   '@astrojs/sitemap': 1.2.0
-  '@astrojs/tailwind': 3.0.1
+  '@astrojs/tailwind': 3.1.0
   '@fontsource/jetbrains-mono': 4.5.12
   '@fontsource/lexend': 4.5.15
   '@tailwindcss/typography': 0.5.9
@@ -27,7 +27,7 @@ dependencies:
   '@astrojs/react': 2.1.0_3xleytyzprlgycb2ded54tx72i
   '@astrojs/rss': 2.2.0
   '@astrojs/sitemap': 1.2.0
-  '@astrojs/tailwind': 3.0.1_ztwm5qe42rkouqcscc322ujlja
+  '@astrojs/tailwind': 3.1.0_ztwm5qe42rkouqcscc322ujlja
   '@fontsource/jetbrains-mono': 4.5.12
   '@fontsource/lexend': 4.5.15
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.7
@@ -172,10 +172,10 @@ packages:
       zod: 3.20.2
     dev: false
 
-  /@astrojs/tailwind/3.0.1_ztwm5qe42rkouqcscc322ujlja:
-    resolution: {integrity: sha512-QSYh/xmz454j1yZU9rjw2J24PpH7j3h2ClesqMaAniOtcuL8RfP7KYCnCrk01xvjwqqO+QBpZNDD/SUhHNtFFg==}
+  /@astrojs/tailwind/3.1.0_ztwm5qe42rkouqcscc322ujlja:
+    resolution: {integrity: sha512-eNflzlCdCtLZjc8pK0xQb/hXYnN/mVGVJFRAMWStrFwg8Tsvj6WVCPyRy77D5NL2tQ1piS2wiouOzAgiy1Dsiw==}
     peerDependencies:
-      astro: ^2.0.4
+      astro: ^2.1.0
       tailwindcss: ^3.0.24
     dependencies:
       '@proload/core': 0.3.3
