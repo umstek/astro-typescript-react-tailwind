@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/mdx': 0.18.1
   '@astrojs/react': 2.1.0
   '@astrojs/rss': 2.2.0
-  '@astrojs/sitemap': 1.2.0
+  '@astrojs/sitemap': 1.2.1
   '@astrojs/tailwind': 3.1.0
   '@fontsource/jetbrains-mono': 4.5.12
   '@fontsource/lexend': 4.5.15
@@ -26,7 +26,7 @@ dependencies:
   '@astrojs/mdx': 0.18.1_astro@2.1.2+rollup@3.19.1
   '@astrojs/react': 2.1.0_3xleytyzprlgycb2ded54tx72i
   '@astrojs/rss': 2.2.0
-  '@astrojs/sitemap': 1.2.0
+  '@astrojs/sitemap': 1.2.1
   '@astrojs/tailwind': 3.1.0_5fkwwuzubt6borit3q7k7y2k74
   '@fontsource/jetbrains-mono': 4.5.12
   '@fontsource/lexend': 4.5.15
@@ -166,8 +166,8 @@ packages:
       kleur: 4.1.5
     dev: false
 
-  /@astrojs/sitemap/1.2.0:
-    resolution: {integrity: sha512-v4Esbchc7QcbDilDcZ80BrW29o7SoWnuX80dndH+rE92cpiRwdJw5w1bfI17mtmjlt3NjgFxyjVB93ycD9s66A==}
+  /@astrojs/sitemap/1.2.1:
+    resolution: {integrity: sha512-nlKP1qc1ENZ61w+ep5RdsObjYWso4QdLGC5WyzssnKkgVDijHT61s/tHFfBWHhxqdjcw4x1V1um/eSQZPDTR3Q==}
     dependencies:
       sitemap: 7.1.1
       zod: 3.20.2
