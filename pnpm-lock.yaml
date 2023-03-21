@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': 0.18.1
+  '@astrojs/mdx': 0.18.2
   '@astrojs/react': 2.1.0
   '@astrojs/rss': 2.3.0
   '@astrojs/sitemap': 1.2.1
@@ -23,7 +23,7 @@ specifiers:
   tailwindcss: 3.2.7
 
 dependencies:
-  '@astrojs/mdx': 0.18.1_astro@2.1.3+rollup@3.20.0
+  '@astrojs/mdx': 0.18.2_astro@2.1.3+rollup@3.20.0
   '@astrojs/react': 2.1.0_3xleytyzprlgycb2ded54tx72i
   '@astrojs/rss': 2.3.0
   '@astrojs/sitemap': 1.2.1
@@ -106,11 +106,34 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx/0.18.1_astro@2.1.3+rollup@3.20.0:
-    resolution: {integrity: sha512-C5pdzAMyigZxbOOtbsmC4RsDOTTTtIbSJkk4FLD5aTfQ9//d/rEep5S9cFFeIARrHkjPiDP374WYm0RZqtN9ig==}
+  /@astrojs/markdown-remark/2.1.1_astro@2.1.3:
+    resolution: {integrity: sha512-qVb5QCDeX2huUTzmt0cb7IXZ1iUS5k5kzatl2XE6BGZFPPZwhN2rUAf6oKDBOO+TcvFqIgns0AfA5gq2km/J9g==}
+    peerDependencies:
+      astro: ^2.1.4
+    dependencies:
+      '@astrojs/prism': 2.1.1
+      astro: 2.1.3
+      github-slugger: 1.5.0
+      import-meta-resolve: 2.2.1
+      rehype-raw: 6.1.1
+      rehype-stringify: 9.0.3
+      remark-gfm: 3.0.1
+      remark-parse: 10.0.1
+      remark-rehype: 10.1.0
+      remark-smartypants: 2.0.0
+      shiki: 0.11.1
+      unified: 10.1.2
+      unist-util-visit: 4.1.2
+      vfile: 5.3.6
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@astrojs/mdx/0.18.2_astro@2.1.3+rollup@3.20.0:
+    resolution: {integrity: sha512-eSR6R62I5cwM6AH8r4UhyBwcV/KKLaZ2siXDA9QR9O4uzUBRnT4gwvoGOvaqpjZCvdNJ2ThaVjePH4DFvxFhaQ==}
     engines: {node: '>=16.12.0'}
     dependencies:
-      '@astrojs/markdown-remark': 2.1.0_astro@2.1.3
+      '@astrojs/markdown-remark': 2.1.1_astro@2.1.3
       '@astrojs/prism': 2.1.1
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/rollup': 2.3.0_rollup@3.20.0
