@@ -61,8 +61,8 @@ devDependencies:
     specifier: 3.2.1
     version: 3.2.1
   remark-shiki-twoslash:
-    specifier: 3.1.2
-    version: 3.1.2(typescript@4.9.5)
+    specifier: 3.1.3
+    version: 3.1.3(typescript@4.9.5)
 
 packages:
 
@@ -3311,8 +3311,8 @@ packages:
       unified: 10.1.2
     dev: false
 
-  /remark-shiki-twoslash@3.1.2(typescript@4.9.5):
-    resolution: {integrity: sha512-XmJS1SXc4SvwI8F4FjNwhcYn+lxnF7gw3gcPpT6aFuQimLefihfg6CnIHWQXI1uqfFkDVRfLvK6kOmJjm/2ixQ==}
+  /remark-shiki-twoslash@3.1.3(typescript@4.9.5):
+    resolution: {integrity: sha512-4e8OH3ySOCw5wUbDcPszokOKjKuebOqlP2WlySvC7ITBOq27BiGsFlq+FNWhxppZ+JzhTWah4gQrnMjX3KDbAQ==}
     peerDependencies:
       typescript: '>3'
     dependencies:
@@ -3322,7 +3322,7 @@ packages:
       fenceparser: 1.1.1
       regenerator-runtime: 0.13.11
       shiki: 0.10.1
-      shiki-twoslash: 3.1.1(typescript@4.9.5)
+      shiki-twoslash: 3.1.2(typescript@4.9.5)
       tslib: 2.1.0
       typescript: 4.9.5
       unist-util-visit: 2.0.3
@@ -3478,8 +3478,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /shiki-twoslash@3.1.1(typescript@4.9.5):
-    resolution: {integrity: sha512-b2j/2yjEjnj0Yav7purKB7uuSbYBf/EQWmu2f7d4G96NiM+Qmr3Tb3UeHY7faN/IEaLW6ip7aQa7MpZNlU5xkQ==}
+  /shiki-twoslash@3.1.2(typescript@4.9.5):
+    resolution: {integrity: sha512-JBcRIIizi+exIA/OUhYkV6jtyeZco0ykCkIRd5sgwIt1Pm4pz+maoaRZpm6SkhPwvif4fCA7xOtJOykhpIV64Q==}
     peerDependencies:
       typescript: '>3'
     dependencies:
