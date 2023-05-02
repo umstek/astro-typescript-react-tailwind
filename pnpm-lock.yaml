@@ -8,8 +8,8 @@ dependencies:
     specifier: 2.1.2
     version: 2.1.2(@types/react-dom@18.2.1)(@types/react@18.2.0)(react-dom@18.2.0)(react@18.2.0)
   '@astrojs/rss':
-    specifier: 2.4.0
-    version: 2.4.0
+    specifier: 2.4.1
+    version: 2.4.1
   '@astrojs/sitemap':
     specifier: 1.2.2
     version: 1.2.2
@@ -180,8 +180,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/rss@2.4.0:
-    resolution: {integrity: sha512-cbSgrNUCmwfzXTEqfK/6vk+Ut5auHnIpv6Z5e5JaiDPUX7vcn3175nFBj68ujcb5HGY0rQ9ohGY4a4VX3ScmDg==}
+  /@astrojs/rss@2.4.1:
+    resolution: {integrity: sha512-c+j6Dwxc/t50/v7xhM88RKbxh9SjaQMw0IdLeeOqQAdcLT2Me7nUUWwx0BbPnu6RO0YxT5Up1Sl/OdrA60tfSw==}
     dependencies:
       fast-xml-parser: 4.0.15
       kleur: 4.1.5
