@@ -6,7 +6,7 @@ dependencies:
     version: 0.19.0(astro@2.3.4)(rollup@3.21.4)
   '@astrojs/react':
     specifier: 2.1.2
-    version: 2.1.2(@types/react-dom@18.2.3)(@types/react@18.2.4)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.1.2(@types/react-dom@18.2.3)(@types/react@18.2.5)(react-dom@18.2.0)(react@18.2.0)
   '@astrojs/rss':
     specifier: 2.4.1
     version: 2.4.1
@@ -52,8 +52,8 @@ dependencies:
 
 devDependencies:
   '@types/react':
-    specifier: 18.2.4
-    version: 18.2.4
+    specifier: 18.2.5
+    version: 18.2.5
   '@types/react-dom':
     specifier: 18.2.3
     version: 18.2.3
@@ -161,7 +161,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react@2.1.2(@types/react-dom@18.2.3)(@types/react@18.2.4)(react-dom@18.2.0)(react@18.2.0):
+  /@astrojs/react@2.1.2(@types/react-dom@18.2.3)(@types/react@18.2.5)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-ApxiaX31T9ZL80z/w4Ep9lC2TvEtLtxhOYdKz+TSqdE5wgVOmKk5plRrMA5gvy87L9pFcyXyR4ZC91qEZaUGxA==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -172,7 +172,7 @@ packages:
     dependencies:
       '@babel/core': 7.20.12
       '@babel/plugin-transform-react-jsx': 7.20.13(@babel/core@7.20.12)
-      '@types/react': 18.2.4
+      '@types/react': 18.2.5
       '@types/react-dom': 18.2.3
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -926,10 +926,10 @@ packages:
   /@types/react-dom@18.2.3:
     resolution: {integrity: sha512-hxXEXWxFJXbY0LMj/T69mznqOZJXNtQMqVxIiirVAZnnpeYiD4zt+lPsgcr/cfWg2VLsxZ1y26vigG03prYB+Q==}
     dependencies:
-      '@types/react': 18.2.4
+      '@types/react': 18.2.5
 
-  /@types/react@18.2.4:
-    resolution: {integrity: sha512-IvAIhJTmKAAJmCIcaa6+5uagjyh+9GvcJ/thPZcw+i+vx+22eHlTy2Q1bJg/prES57jehjebq9DnIhOTtIhmLw==}
+  /@types/react@18.2.5:
+    resolution: {integrity: sha512-RuoMedzJ5AOh23Dvws13LU9jpZHIc/k90AgmK7CecAYeWmSr3553L4u5rk4sWAPBuQosfT7HmTfG4Rg5o4nGEA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
