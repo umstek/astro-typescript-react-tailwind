@@ -11,8 +11,8 @@ dependencies:
     specifier: 2.4.1
     version: 2.4.1
   '@astrojs/sitemap':
-    specifier: 1.2.2
-    version: 1.2.2
+    specifier: 1.3.0
+    version: 1.3.0
   '@astrojs/tailwind':
     specifier: 3.1.2
     version: 3.1.2(astro@2.3.4)(tailwindcss@3.3.2)
@@ -210,11 +210,11 @@ packages:
       kleur: 4.1.5
     dev: false
 
-  /@astrojs/sitemap@1.2.2:
-    resolution: {integrity: sha512-rjgFEPzETMVYgOMECIFP2vCkwzF9nLB31/6XWN548IeU/IlFgYR28RbsGTIjUElDak/9AF3jzjtzyldAZger3Q==}
+  /@astrojs/sitemap@1.3.0:
+    resolution: {integrity: sha512-s1/v9MfnxVLvH5v4edK02bBAOMp5tuEvhPT1pJ2qaqXM6QZuqatk/xQU3kuWebQh+yqnD2yBeeHbmfwr4gG1vw==}
     dependencies:
       sitemap: 7.1.1
-      zod: 3.20.2
+      zod: 3.21.4
     dev: false
 
   /@astrojs/tailwind@3.1.2(astro@2.3.4)(tailwindcss@3.3.2):
@@ -4127,10 +4127,6 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
-    dev: false
-
-  /zod@3.20.2:
-    resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}
     dev: false
 
   /zod@3.21.4:
