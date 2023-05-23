@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@astrojs/mdx':
-    specifier: 0.19.3
-    version: 0.19.3(astro@2.5.4)(rollup@3.23.0)
+    specifier: 0.19.4
+    version: 0.19.4(astro@2.5.4)(rollup@3.23.0)
   '@astrojs/react':
     specifier: 2.2.0
     version: 2.2.0(@types/react-dom@18.2.4)(@types/react@18.2.6)(react-dom@18.2.0)(react@18.2.0)
@@ -125,8 +125,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@0.19.3(astro@2.5.4)(rollup@3.23.0):
-    resolution: {integrity: sha512-XiIQRO1OlJ19jqaZuttt6TSvnEIIiOVkHiNXPCOOsHnRpbLFuv0y0FoFuhYYRTHHm4rfSV2BRP5INiD5Aq9ByA==}
+  /@astrojs/mdx@0.19.4(astro@2.5.4)(rollup@3.23.0):
+    resolution: {integrity: sha512-+xT4YiUmOXwBqZ2zr74M7lznJ8wg6Q1Be534fJq24ozRxlkwEM6Qj/h9s3oSk6CwV7DuEf6KosRR0ltWE/OxJg==}
     engines: {node: '>=16.12.0'}
     dependencies:
       '@astrojs/markdown-remark': 2.2.1(astro@2.5.4)
