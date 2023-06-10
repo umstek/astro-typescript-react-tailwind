@@ -17,7 +17,7 @@
     "@astrojs/sitemap": "1.3.3",
     "@astrojs/tailwind": "3.1.3",
     "@fontsource/jetbrains-mono": "4.5.12",
-    "@fontsource/lexend": "4.5.15",
+    "@fontsource/lexend": "5.0.3",
     "@tailwindcss/typography": "0.5.9",
     "astro": "2.6.2",
     "mdast-util-to-string": "3.2.0",
