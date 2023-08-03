@@ -45,8 +45,8 @@ dependencies:
     specifier: 1.5.0
     version: 1.5.0
   rollup:
-    specifier: 3.27.0
-    version: 3.27.0
+    specifier: 3.27.1
+    version: 3.27.1
   shiki:
     specifier: 0.14.3
     version: 0.14.3
@@ -3878,8 +3878,8 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: false
 
-  /rollup@3.27.0:
-    resolution: {integrity: sha512-aOltLCrYZ0FhJDm7fCqwTjIUEVjWjcydKBV/Zeid6Mn8BWgDCUBBWT5beM5ieForYNo/1ZHuGJdka26kvQ3Gzg==}
+  /rollup@3.27.1:
+    resolution: {integrity: sha512-tXNDFwOkN6C2w5Blj1g6ForKeFw6c1mDu5jxoeDO3/pmYjgt+8yvIFjKzH5FQUq70OKZBkOt0zzv0THXL7vwzQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -4470,7 +4470,7 @@ packages:
     dependencies:
       esbuild: 0.18.16
       postcss: 8.4.27
-      rollup: 3.27.0
+      rollup: 3.27.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
