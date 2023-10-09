@@ -29,8 +29,8 @@
     "tailwindcss": "3.3.3"
   },
   "devDependencies": {
-    "@types/react": "18.2.25",
-    "@types/react-dom": "18.2.11",
+    "@types/react": "18.2.27",
+    "@types/react-dom": "18.2.12",
     "@typescript/twoslash": "3.2.4",
     "remark-shiki-twoslash": "3.1.3"
   }
