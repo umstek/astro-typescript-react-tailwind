@@ -62,8 +62,8 @@ devDependencies:
     specifier: 18.3.0
     version: 18.3.0
   '@typescript/twoslash':
-    specifier: 3.2.7
-    version: 3.2.7(typescript@5.0.4)
+    specifier: 3.2.8
+    version: 3.2.8(typescript@5.0.4)
   remark-shiki-twoslash:
     specifier: 3.1.3
     version: 3.1.3(typescript@5.0.4)
@@ -1134,12 +1134,12 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript/twoslash@3.2.7(typescript@5.0.4):
-    resolution: {integrity: sha512-4kJ9I2VFd0vbqProTYzKikFrpUgDwF9DSvAmr2M3TVlM4JUwPEFzd2JYKFTubVacVOYJKOm8Q8ynOowjx+C/OA==}
+  /@typescript/twoslash@3.2.8(typescript@5.0.4):
+    resolution: {integrity: sha512-+PEMkLrdq1MFa7DibdCbZO7SS5p8DgfRX94KIOfJsmvB6NoCWySdt7598f9Foa+CMITEck9DiOS6O9pURqUpIQ==}
     peerDependencies:
       typescript: '*'
     dependencies:
-      '@typescript/vfs': 1.5.3(typescript@5.0.4)
+      '@typescript/vfs': 1.6.0(typescript@5.0.4)
       debug: 4.3.4
       lz-string: 1.5.0
       typescript: 5.0.4
@@ -1163,8 +1163,8 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript/vfs@1.5.3(typescript@5.0.4):
-    resolution: {integrity: sha512-OSZ/o3wwD5VPZVdGGsXWk7sRGRtwrGnqA4zwmb33FTs7Wxmad0QTkQCbaNyqWA8hL09TCwAthdp8yjFA5G1lvw==}
+  /@typescript/vfs@1.6.0(typescript@5.0.4):
+    resolution: {integrity: sha512-hvJUjNVeBMp77qPINuUvYXj4FyWeeMMKZkxEATEU3hqBAQ7qdTBCUFT7Sp0Zu0faeEtFf+ldXxMEDr/bk73ISg==}
     peerDependencies:
       typescript: '*'
     dependencies:
