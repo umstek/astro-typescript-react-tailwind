@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@types/react": "18.3.11",
-    "@types/react-dom": "18.3.0",
+    "@types/react-dom": "18.3.1",
     "@typescript/twoslash": "3.2.8",
     "remark-shiki-twoslash": "3.1.3"
   }
