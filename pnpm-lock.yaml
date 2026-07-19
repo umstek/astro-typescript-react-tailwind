@@ -21,11 +21,11 @@ dependencies:
     specifier: 3.1.3
     version: 3.1.3(astro@2.10.15)(tailwindcss@3.4.19)
   '@fontsource/jetbrains-mono':
-    specifier: 4.5.12
-    version: 4.5.12
+    specifier: 5.3.0
+    version: 5.3.0
   '@fontsource/lexend':
-    specifier: 4.5.15
-    version: 4.5.15
+    specifier: 5.3.0
+    version: 5.3.0
   '@tailwindcss/typography':
     specifier: 0.5.19
     version: 0.5.19(tailwindcss@3.4.19)
@@ -882,12 +882,12 @@ packages:
     dev: false
     optional: true
 
-  /@fontsource/jetbrains-mono@4.5.12:
-    resolution: {integrity: sha512-LJF1ala1/u+wXZmESFqIk08FA9yGX4/uAAleCHmXUMgEjvNAYFHUQQ7eK5hQQoBOwh99cU5suTrqYqEkgzwzPA==}
+  /@fontsource/jetbrains-mono@5.3.0:
+    resolution: {integrity: sha512-fqDfB5I9f1p1TV486aUgB9t8zP84P0O1FtQR5Ol9vjwPy+S+EIGlVYm1cvj2W5shcZMTg2nZFdVMoH5wFu8a1A==}
     dev: false
 
-  /@fontsource/lexend@4.5.15:
-    resolution: {integrity: sha512-6edLmDmte8pJWtQ1NIahcJq0iWlf6b0/JLwkd7WbDQ3C5tZWnxjvbP4RSklMv4MPzGjpuYuYnc+QANbjUws1oA==}
+  /@fontsource/lexend@5.3.0:
+    resolution: {integrity: sha512-4igbsooynC6xwfagkAW6eo9JMrw8ALFGkWn1YChYmYchufMJSPgWihD+cy5ruX5YX/gDk/gllcl1Oj7q6KUZmw==}
     dev: false
 
   /@isaacs/cliui@8.0.2:
