@@ -1,7 +1,6 @@
-interface HeaderProps extends React.DetailedHTMLProps<
-  React.AnchorHTMLAttributes<HTMLAnchorElement>,
-  HTMLAnchorElement
-> {}
+import type { AnchorHTMLAttributes } from "react";
+
+interface HeaderProps extends AnchorHTMLAttributes<HTMLAnchorElement> {}
 
 function HeaderLink(props: HeaderProps) {
   const { href, className, children } = props;

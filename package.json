@@ -11,7 +11,8 @@
     "astro": "astro",
     "lint": "oxlint .",
     "format": "oxfmt",
-    "format:check": "oxfmt --check"
+    "format:check": "oxfmt --check",
+    "check": "astro check"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.2.2",
@@ -31,10 +32,12 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
+    "@astrojs/check": "0.9.10",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "oxfmt": "0.63.0",
-    "oxlint": "1.78.0"
+    "oxlint": "1.78.0",
+    "typescript": "6.0.3"
   },
   "packageManager": "pnpm@11.18.0"
 }

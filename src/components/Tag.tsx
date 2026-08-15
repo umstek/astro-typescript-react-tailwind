@@ -1,3 +1,5 @@
+import type { HTMLAttributes } from "react";
+
 const Tag = ({
   children,
   href,
@@ -9,7 +11,7 @@ const Tag = ({
   href?: string;
   count?: number;
   anchorClassName?: string;
-} & React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>) => {
+} & HTMLAttributes<HTMLDivElement>) => {
   return (
     <div {...rest}>
       🏷️
