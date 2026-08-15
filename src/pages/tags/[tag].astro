@@ -16,10 +16,10 @@ export async function getStaticPaths() {
     .flatMap((post) => (post.frontmatter.tags || []).map((tag: string) => [tag, post]))
     .reduce((groups, [tag, post]) => ({ ...groups, [tag]: [...(groups[tag] || []), post] }), {});
 
-  return Object.entries(groupedPosts).map(([tag, posts]) => ({
+  return Object.entries(groupedPosts).map(([tag, taggedPosts]) => ({
     params: { tag },
     props: {
-      posts: posts.sort(
+      posts: taggedPosts.sort(
         (a, b) =>
           new Date(b.frontmatter.publishedAt).valueOf() -
           new Date(a.frontmatter.publishedAt).valueOf(),
