@@ -8,15 +8,15 @@ This is just a customized version of <https://github.com/withastro/astro/tree/la
 
 ## Customizations
 
-+ Using pnpm for dependency management
-+ Using React for components
-+ Using Tailwind for styles
-+ Using `.env` files for configurable values
-+ Add extended .gitignore file generated with gitignore.io
-+ Add reading time support
-+ Add tags support
-+ Fits more content in small screens
-+ ...
+- Using pnpm for dependency management
+- Using React for components
+- Using Tailwind for styles
+- Using `.env` files for configurable values
+- Add extended .gitignore file generated with gitignore.io
+- Add reading time support
+- Add tags support
+- Fits more content in small screens
+- ...
 
 ## 🧞 Commands
 

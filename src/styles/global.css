@@ -1,12 +1,12 @@
-@import '@fontsource-variable/jetbrains-mono';
-@import '@fontsource-variable/lexend';
-@import 'tailwindcss';
+@import "@fontsource-variable/jetbrains-mono";
+@import "@fontsource-variable/lexend";
+@import "tailwindcss";
 
 @plugin '@tailwindcss/typography';
 
 @theme {
-  --font-sans: 'Lexend Variable', ui-sans-serif, system-ui, sans-serif;
-  --font-mono: 'JetBrains Mono Variable', ui-monospace, 'Cascadia Mono', monospace;
+  --font-sans: "Lexend Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, "Cascadia Mono", monospace;
 }
 
 .glass {
