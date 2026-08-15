@@ -59,13 +59,11 @@ The blockquote element represents content that is quoted from another source, op
 
 ## Code Blocks
 
-```ts twoslash
+```ts
 interface IdLabel {id: number, /* some fields */ }
 interface NameLabel {name: string, /* other fields */ }
 type NameOrId<T extends number | string> = T extends number ? IdLabel : NameLabel;
-// This comment should not be included
 
-// ---cut---
 function createLabel<T extends number | string>(idOrName: T): NameOrId<T> {
   throw "unimplemented"
 }

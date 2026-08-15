@@ -1,9 +1,11 @@
+// @ts-check
 import { defineConfig } from 'astro/config';
+import { unified } from '@astrojs/markdown-remark';
+
 import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
-import tailwind from '@astrojs/tailwind';
-import shikiTwoslash from 'remark-shiki-twoslash';
+import sitemap from '@astrojs/sitemap';
+import tailwindcss from '@tailwindcss/vite';
 
 import { remarkReadingTime } from './remark-reading-time.mjs';
 
@@ -11,12 +13,19 @@ import { remarkReadingTime } from './remark-reading-time.mjs';
 export default defineConfig({
   site: 'https://example.com',
   markdown: {
-    syntaxHighlight: false,
-    remarkPlugins: [
-      remarkReadingTime,
-      [shikiTwoslash.default || shikiTwoslash, { themes: ['github-dark', 'github-light'] }],
-    ],
-    extendDefaultPlugins: true,
+    syntaxHighlight: 'shiki',
+    shikiConfig: {
+      themes: {
+        light: 'github-light',
+        dark: 'github-dark',
+      },
+    },
+    processor: unified({
+      remarkPlugins: [remarkReadingTime],
+    }),
   },
-  integrations: [mdx(), react(), tailwind({ config: { applyBaseStyles: false } }), sitemap()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
+  integrations: [mdx(), react(), sitemap()],
 });

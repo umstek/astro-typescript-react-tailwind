@@ -1,25 +1,96 @@
-@import '@fontsource/jetbrains-mono/variable';
-@import '@fontsource/lexend/variable';
-@import 'shiki.css';
+@import '@fontsource-variable/jetbrains-mono';
+@import '@fontsource-variable/lexend';
+@import 'tailwindcss';
 
-/* The integration's default injected base.css file */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --font-sans: 'Lexend Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, 'Cascadia Mono', monospace;
+}
 
 .glass {
   backdrop-filter: blur(1em) saturate(200%);
-  /* background-color: rgba(255, 255, 255, 0.8); */
 }
 
-@media (prefers-color-scheme: light) {
-  .shiki.github-dark {
-    display: none;
-  }
+/*
+ * Typography customizations ported from the old tailwind.config.cjs.
+ * Tailwind CSS v4 configures the typography plugin from CSS instead.
+ */
+.prose {
+  --tw-prose-emphasis: var(--color-rose-600);
 }
 
+.prose h1 {
+  font-weight: 300;
+  color: var(--tw-prose-emphasis);
+}
+
+.prose h2 {
+  font-weight: 350;
+  color: var(--tw-prose-emphasis);
+}
+
+.prose h3 {
+  font-weight: 400;
+  color: var(--tw-prose-emphasis);
+}
+
+.prose h4 {
+  font-weight: 600;
+  color: var(--tw-prose-emphasis);
+}
+
+.prose h5 {
+  color: var(--tw-prose-emphasis);
+}
+
+.prose h6 {
+  font-style: italic;
+  color: var(--tw-prose-emphasis);
+}
+
+.prose a {
+  text-decoration: none;
+  border-color: var(--tw-prose-emphasis);
+  border-bottom-width: 2px;
+}
+
+.prose a:hover {
+  color: var(--tw-prose-emphasis);
+}
+
+.prose blockquote {
+  border-left-color: var(--tw-prose-emphasis);
+}
+
+.prose blockquote > p::before,
+.prose blockquote > p::after {
+  color: var(--tw-prose-emphasis);
+}
+
+.prose ol > li::marker,
+.prose ul > li::marker {
+  color: var(--tw-prose-emphasis);
+}
+
+/* Let Shiki's inline styles provide code block colors. */
+.prose pre {
+  color: inherit;
+  background-color: inherit;
+}
+
+/*
+ * Dual-theme Shiki code blocks: the light theme colors are inlined by
+ * default and the dark theme is available as CSS variables.
+ */
 @media (prefers-color-scheme: dark) {
-  .shiki.github-light {
-    display: none;
+  .astro-code,
+  .astro-code span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+    font-style: var(--shiki-dark-font-style) !important;
+    font-weight: var(--shiki-dark-font-weight) !important;
+    text-decoration: var(--shiki-dark-text-decoration) !important;
   }
 }
