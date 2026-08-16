@@ -1,4 +1,4 @@
-import type { HTMLAttributes } from "react";
+import type { ComponentPropsWithRef } from "react";
 
 const Tag = ({
   children,
@@ -11,7 +11,7 @@ const Tag = ({
   href?: string;
   count?: number;
   anchorClassName?: string;
-} & HTMLAttributes<HTMLDivElement>) => {
+} & ComponentPropsWithRef<"div">) => {
   return (
     <div {...rest}>
       🏷️
