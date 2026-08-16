@@ -1,10 +1,10 @@
 function DateTime({ date }: { date: string }) {
   return (
     <time dateTime={date}>
-      {new Date(date).toLocaleDateString('en-us', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
+      {new Date(date).toLocaleDateString("en-us", {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
       })}
     </time>
   );

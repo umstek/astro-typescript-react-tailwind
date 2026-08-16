@@ -4,7 +4,7 @@ title: "Markdown Style Guide"
 description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
 publishedAt: "Jul 01 2022"
 heroImage: "/placeholder-hero.jpg"
-tags: ['markdown', 'blog', 'syntax']
+tags: ["markdown", "blog", "syntax"]
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
@@ -42,7 +42,7 @@ The blockquote element represents content that is quoted from another source, op
 #### Blockquote without attribution
 
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use *Markdown syntax* within a blockquote.
+> **Note** that you can use _Markdown syntax_ within a blockquote.
 
 #### Blockquote with attribution
 
@@ -54,20 +54,22 @@ The blockquote element represents content that is quoted from another source, op
 ## Tables
 
 | Italics   | Bold     | Code   |
-| --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
+| --------- | -------- | ------ |
+| _italics_ | **bold** | `code` |
 
 ## Code Blocks
 
-```ts twoslash
-interface IdLabel {id: number, /* some fields */ }
-interface NameLabel {name: string, /* other fields */ }
+```ts
+interface IdLabel {
+  id: number; /* some fields */
+}
+interface NameLabel {
+  name: string; /* other fields */
+}
 type NameOrId<T extends number | string> = T extends number ? IdLabel : NameLabel;
-// This comment should not be included
 
-// ---cut---
 function createLabel<T extends number | string>(idOrName: T): NameOrId<T> {
-  throw "unimplemented"
+  throw "unimplemented";
 }
 
 let a = createLabel("typescript");
@@ -83,19 +85,19 @@ let a = createLabel("typescript");
 
 #### Unordered List
 
-* List item
-* Another item
-* And another item
+- List item
+- Another item
+- And another item
 
 #### Nested list
 
-* Fruit
-  * Apple
-  * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
+- Fruit
+  - Apple
+  - Orange
+  - Banana
+- Dairy
+  - Milk
+  - Cheese
 
 ## Other Elements — abbr, sub, sup, kbd, mark
 
