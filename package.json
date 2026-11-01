@@ -34,7 +34,7 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "@astrojs/check": "0.9.10",
+    "@astrojs/check": "0.9.12",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "oxfmt": "0.63.0",
