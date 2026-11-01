@@ -1,6 +1,6 @@
-import HeaderLink from './HeaderLink';
+import HeaderLink from "./HeaderLink";
 
-import { SITE_TITLE } from '../config';
+import { SITE_TITLE } from "../config";
 
 function Header({ title }: { title?: string }) {
   return (

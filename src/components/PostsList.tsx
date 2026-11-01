@@ -1,4 +1,4 @@
-import Tile from './Tile';
+import Tile from "./Tile";
 
 function PostsList({ posts }: { posts: Record<string, any>[] }) {
   return (

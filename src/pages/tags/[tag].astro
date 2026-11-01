@@ -7,16 +7,19 @@ import PostsList from '../../components/PostsList';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../../config';
 
 export async function getStaticPaths() {
-  const posts = await Astro.glob('../blog/**/*.{md,mdx}');
+  const posts = Object.values(import.meta.glob('../blog/**/*.{md,mdx}', { eager: true })) as Record<
+    string,
+    any
+  >[];
 
   const groupedPosts: { [tag: string]: Record<string, any>[] } = posts
     .flatMap((post) => (post.frontmatter.tags || []).map((tag: string) => [tag, post]))
     .reduce((groups, [tag, post]) => ({ ...groups, [tag]: [...(groups[tag] || []), post] }), {});
 
-  return Object.entries(groupedPosts).map(([tag, posts]) => ({
+  return Object.entries(groupedPosts).map(([tag, taggedPosts]) => ({
     params: { tag },
     props: {
-      posts: posts.sort(
+      posts: taggedPosts.sort(
         (a, b) =>
           new Date(b.frontmatter.publishedAt).valueOf() -
           new Date(a.frontmatter.publishedAt).valueOf(),

@@ -1,5 +1,5 @@
-import DateTime from './DateTime';
-import Tag from './Tag';
+import DateTime from "./DateTime";
+import Tag from "./Tag";
 
 function Tile({ post }: { post: Record<string, any> }) {
   return (

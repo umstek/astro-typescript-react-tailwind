@@ -1,4 +1,4 @@
-import { GITHUB, LICENSE_NOTICE, MAINTENANCE_NOTICE, OWNER, START_YEAR, TWITTER } from '../config';
+import { GITHUB, LICENSE_NOTICE, MAINTENANCE_NOTICE, OWNER, START_YEAR, TWITTER } from "../config";
 
 function Footer() {
   return (

@@ -1,3 +1,5 @@
+import type { ComponentPropsWithRef } from "react";
+
 const Tag = ({
   children,
   href,
@@ -9,11 +11,11 @@ const Tag = ({
   href?: string;
   count?: number;
   anchorClassName?: string;
-} & React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>) => {
+} & ComponentPropsWithRef<"div">) => {
   return (
     <div {...rest}>
       🏷️
-      <a className={['cursor-pointer', anchorClassName].filter(Boolean).join(' ')} href={href}>
+      <a className={["cursor-pointer", anchorClassName].filter(Boolean).join(" ")} href={href}>
         <span>{children}</span>
       </a>
       {count && <span className="mx-1">({count})</span>}

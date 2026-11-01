@@ -6,7 +6,7 @@ import Tag from '../components/Tag';
 import PostDates from '../components/PostDates';
 
 export interface Props {
-  content: {
+  frontmatter: {
     title: string;
     description: string;
     initialDraftAt?: string;
@@ -21,7 +21,7 @@ export interface Props {
 }
 
 const {
-  content: {
+  frontmatter: {
     title,
     description,
     initialDraftAt,
@@ -45,7 +45,7 @@ const {
         {
           heroImage && (
             <div
-              class="w-full h-screen/2 bg-no-repeat bg-center bg-cover"
+              class="h-[50vh] w-full bg-no-repeat bg-center bg-cover"
               style={{ backgroundImage: `url("${heroImage}")` }}
             />
           )
@@ -58,9 +58,7 @@ const {
             <div class="flex flex-row space-x-2">
               {
                 tags?.map((tag) => (
-                  <Tag key={tag} href={`/tags/${tag}`}>
-                    {tag}
-                  </Tag>
+                  <Tag href={`/tags/${tag}`}>{tag}</Tag>
                 ))
               }
             </div>
