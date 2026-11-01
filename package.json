@@ -40,7 +40,7 @@
     "oxfmt": "0.63.0",
     "oxlint": "1.78.0",
     "typescript": "6.0.3",
-    "vitest": "4.1.10"
+    "vitest": "4.1.12"
   },
   "packageManager": "pnpm@11.18.0"
 }
